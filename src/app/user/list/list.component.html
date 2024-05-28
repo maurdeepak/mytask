@@ -1,0 +1,41 @@
+<!-- <ul>
+    <li *ngFor="let user of storeData">
+      {{ user.name }} - {{ user.email }}
+      <button (click)="deletedata(user.id)">Delete</button>
+    </li>
+  </ul> -->
+  <div class="container">
+    <form>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Role</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of storeData">
+              <td>{{ user.name }}</td>
+              <td>{{ user.email }}</td>
+              <td>{{ user.phone }}</td>
+              <td>{{ user.role }}</td>
+              <td>{{ user.status }}</td>
+              <td>
+              <button class="btn btn-primary" (click)="onEdit(user.id)">Edit</button>&nbsp;
+              <button class="btn btn-danger" (click)="deletedata(user.id)">Delete</button>
+              </td>
+            </tr>
+          
+            
+          </tbody>
+        </table>
+      </div>
+    </form>
+  </div>
+  
+  

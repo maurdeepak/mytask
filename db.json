@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "arjun",
+      "email": "arjun234@gmail.com",
+      "phone": "465316",
+      "role": "user",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "name": "ramesh",
+      "email": "ramesh@gmail.com",
+      "phone": "7896541232",
+      "role": "user",
+      "status": "active",
+      "id": 4
+    },
+    {
+      "name": "kartik",
+      "email": "kartik@gmail.com",
+      "phone": "4875623575",
+      "role": "user",
+      "status": "active",
+      "id": 5
+    },
+    {
+      "name": "arun",
+      "email": "arun@gmail.com",
+      "phone": "4512453892",
+      "role": "user",
+      "status": "active",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+/* Add your custom CSS styles here */
+
+/* Example: Centering the form */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Example: Styling the form inputs */
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  /* Example: Styling the action buttons */
+  .btn-primary {
+    margin-right: 0.5rem;
+  }
+  
